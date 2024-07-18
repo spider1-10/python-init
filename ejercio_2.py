@@ -14,3 +14,5 @@ elif salario > 30000 and salario <= 50000:
     print(f"Salario neto: {salario_neto} Bs")
 elif salario <= 30000:
     print(f"Salario neto: {salario} Bs")
+
+print("Actualizacion hecha desde otro equipo")
