@@ -4,9 +4,9 @@
 #El programa debe determinar si el triángulo es equilátero (todos los lados son iguales), 
 # isósceles (dos lados son iguales) o escaleno (todos los lados son diferentes).
 
-lado1 = int(input("Ingrese lado 1: "))
-lado2 = int(input("Ingrese lado 2: "))
-lado3 = int(input("Ingrese lado 3: "))
+lado1 = int(input("Ingrese primer lado: "))
+lado2 = int(input("Ingrese segundo lado: "))
+lado3 = int(input("Ingrese tercer lado: "))
 
 if lado1 == lado2 and lado1 == lado3:
     print("Es un triangulo EQUILATERO")
